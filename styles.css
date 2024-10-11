@@ -16,6 +16,10 @@ header {
     text-align: center;
     margin-bottom: 20px;
 }
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
 
 h1 {
     font-size: 2rem;
@@ -30,7 +34,7 @@ h1 {
 }
 
 .gallery-item img {
-    width: 100%;
+    width: 99%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -47,4 +51,132 @@ h1 {
     .gallery {
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.text-purple-800 {
+    color: #6b46c1;
+}
+
+.text-purple-900 {
+    color: #5a67d8;
+}
+
+.bg-purple-600 {
+    background-color: #805ad5;
+}
+
+.bg-purple-700 {
+    background-color: #6b46c1;
+}
+
+.bg-purple-900 {
+    background-color: #4a3a9c;
+}
+
+.bg-gray-200 {
+    background-color: #edf2f7;
+}
+
+.bg-gray-50 {
+    background-color: #f7fafc;
+}
+
+.text-gray-600 {
+    color: #718096;
+}
+
+.text-gray-400 {
+    color: #cbd5e0;
+}
+
+.text-purple-100 {
+    color: #e9d8fd;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.text-purple-800 {
+    color: #6b46c1;
+}
+
+.text-purple-900 {
+    color: #5a67d8;
+}
+
+.bg-purple-600 {
+    background-color: #805ad5;
+}
+
+.bg-purple-700 {
+    background-color: #6b46c1;
+}
+
+.bg-purple-900 {
+    background-color: #4a3a9c;
+}
+
+.bg-gray-200 {
+    background-color: #edf2f7;
+}
+
+.bg-gray-50 {
+    background-color: #f7fafc;
+}
+
+.text-gray-600 {
+    color: #718096;
+}
+
+.text-gray-400 {
+    color: #cbd5e0;
+}
+
+.text-purple-100 {
+    color: #e9d8fd;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
 }
